@@ -7,6 +7,6 @@ export const store = configureStore({
     [charactersApi.reducerPath]: charactersApi.reducer,
   },
   middleware: getDefaultMiddleware => getDefaultMiddleware().concat(charactersApi.middleware)
-})
+});
 
-setupListeners(store.dispatch)
+setupListeners(store.dispatch);

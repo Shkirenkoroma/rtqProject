@@ -1,10 +1,11 @@
-import { Link } from "react-router-dom"
+import { FC } from 'react'
 
-const Header = () => {
-
-  return <div>
+const Header: FC = (): JSX.Element => {
+  return (
+    <div>
       <h1>Главная</h1>
-  </div>
+    </div>
+  )
 }
 
-export default Header
+export default Header;

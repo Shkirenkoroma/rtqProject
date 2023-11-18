@@ -1,5 +1,5 @@
-import HomePage from './pages/HomePage'
-import CharacterDetailPage from './pages/CharacterDetailsPage'
+import HomePage from './pages/HomePage';
+import CharacterDetailPage from './pages/CharacterDetailsPage';
 
 const routes = [
   {
@@ -14,6 +14,6 @@ const routes = [
     path: '/*',
     element: <h1>Страница не найдена</h1>,
   },
-]
+];
 
-export default routes
+export default routes;

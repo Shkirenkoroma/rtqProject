@@ -1,6 +1,6 @@
-import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
-import { IAllCharacters, ICharacter } from 'src/types'
-import { BASE_URL } from 'src/utils/constants'
+import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
+import { IAllCharacters, ICharacter } from 'src/types';
+import { BASE_URL } from 'src/utils/constants';
 
 export const charactersApi = createApi({
   reducerPath: 'characterApi',
@@ -13,6 +13,6 @@ export const charactersApi = createApi({
       query: (id) => `/character/${id}`
     })
   }),
-})
+});
 
-export const { useGetAllcharactersQuery, useGetCharacterDetailsByIdQuery } = charactersApi
+export const { useGetAllcharactersQuery, useGetCharacterDetailsByIdQuery } = charactersApi;
