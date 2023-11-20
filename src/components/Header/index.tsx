@@ -1,4 +1,4 @@
-import { FC } from 'react'
+import { FC } from 'react';
 
 const Header: FC = (): JSX.Element => {
   return (
@@ -6,6 +6,6 @@ const Header: FC = (): JSX.Element => {
       <h1>Главная</h1>
     </div>
   )
-}
+};
 
 export default Header;
