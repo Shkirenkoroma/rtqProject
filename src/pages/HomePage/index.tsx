@@ -3,6 +3,7 @@ import CharacterCard from 'src/components/CharacterCard';
 import {
   useGetAllcharactersQuery,
 } from 'src/store/api/characters';
+import * as S from "./index.styles";
 
 const HomePage: FC = (): JSX.Element => {
   const { data: allCharacters, isLoading, error } = useGetAllcharactersQuery()
@@ -10,11 +11,11 @@ const HomePage: FC = (): JSX.Element => {
   if (isLoading) return <h1>Загрузка...</h1>
   if (error) return <h1>Не удалось получить данные</h1>
   return (
-    <div>
+    <S.Container>
       {allCharacters?.results.map((characterData) => (
         <CharacterCard key={characterData.id} data={characterData} />
       ))}
-    </div>
+    </S.Container>
   )
 };
 
