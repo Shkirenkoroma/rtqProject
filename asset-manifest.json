@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/rtqProject/static/css/main.44d5631e.css",
-    "main.js": "/rtqProject/static/js/main.5971ca17.js",
+    "main.js": "/rtqProject/static/js/main.fb39bdf1.js",
     "index.html": "/rtqProject/index.html",
     "main.44d5631e.css.map": "/rtqProject/static/css/main.44d5631e.css.map",
-    "main.5971ca17.js.map": "/rtqProject/static/js/main.5971ca17.js.map"
+    "main.fb39bdf1.js.map": "/rtqProject/static/js/main.fb39bdf1.js.map"
   },
   "entrypoints": [
     "static/css/main.44d5631e.css",
-    "static/js/main.5971ca17.js"
+    "static/js/main.fb39bdf1.js"
   ]
 }
